@@ -5,6 +5,9 @@ resolver = "3"
 default-members = ["crates/dskvs"]
 members = ["crates/dskvs", "crates/xtask"]
 
+[workspace.metadata.crane]
+name = "dskvs"
+
 [workspace.package]
 authors = ["haruki7049 <tontonkirikiri@gmail.com>"]
 version = "0.1.0"
